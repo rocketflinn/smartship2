@@ -1,0 +1,44 @@
+{
+    "columns": [
+        {
+            "ColumnName": "firstname",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "lastname",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "phone",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "lat",
+            "ColumnType": "float",
+            "PK": false
+        },
+        {
+            "ColumnName": "long",
+            "ColumnType": "float",
+            "PK": false
+        },
+        {
+            "ColumnName": "lastupdate",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "icon",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "move",
+            "ColumnType": "bool",
+            "PK": false
+        }
+    ]
+}
