@@ -1,0 +1,14 @@
+{
+    "current_version": 2,
+    "dependencies": "log,geo,clearblade,globals,http",
+    "logging_enabled": "true",
+    "name": "message_monitorSafetyPolygons",
+    "params": [],
+    "permissions": {
+        "Administrator": 0,
+        "Anonymous": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "message_monitorSafetyPolygons.js"
+}
