@@ -1,0 +1,14 @@
+{
+    "current_version": 2,
+    "dependencies": "globals,log,clearblade",
+    "logging_enabled": "false",
+    "name": "data_loadDeviceData",
+    "params": [],
+    "permissions": {
+        "Administrator": 1,
+        "Anonymous": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "data_loadDeviceData.js"
+}
