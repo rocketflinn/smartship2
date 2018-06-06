@@ -1,0 +1,10 @@
+{
+    "current_version": 5,
+    "dependencies": "clearblade,http,log",
+    "logging_enabled": "true",
+    "name": "http_getVideo",
+    "params": [],
+    "permissions": {},
+    "run_user": "",
+    "source": "http_getVideo.js"
+}
