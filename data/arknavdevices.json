@@ -1,0 +1,130 @@
+{
+    "app_id": "d0ca88ab0bcaf5f496acbdcae540",
+    "collection_id": "f4e3efac0be2eda683d7dfa6db50",
+    "items": [
+        {
+            "accuracy": "35",
+            "battery": "75",
+            "devicestate": "Online",
+            "firstname": "MNav",
+            "icon": "https://image.flaticon.com/icons/svg/46/46053.svg",
+            "imei": "353161071697125",
+            "item_id": "043bb381-4d66-4a64-a17f-b18f36c762fa",
+            "lastname": "One",
+            "lat": 43.58317184448242,
+            "long": 7.126299858093262,
+            "positiontimestamp": "2018-04-25T01:00:53Z",
+            "type": "MOBILE_UNIT"
+        },
+        {
+            "accuracy": "25",
+            "battery": "67",
+            "devicestate": "Online",
+            "firstname": "MNav",
+            "icon": "https://image.flaticon.com/icons/svg/46/46053.svg",
+            "imei": "353161071702230",
+            "item_id": "2ca9ff57-2d16-429a-a229-fb13b4022744",
+            "lastname": "Two",
+            "lat": 43.58317184448242,
+            "long": 7.121950149536133,
+            "positiontimestamp": "2018-04-23T07:49:10Z",
+            "type": "MOBILE_UNIT"
+        },
+        {
+            "accuracy": "15",
+            "battery": "45",
+            "devicestate": "Online",
+            "firstname": "MNav",
+            "icon": "https://image.flaticon.com/icons/svg/46/46053.svg",
+            "imei": "353161071697059",
+            "item_id": "463f537c-bf3c-47b4-bbcd-ec026795f71f",
+            "lastname": "Four",
+            "lat": 43.58268737792969,
+            "long": 7.125549793243408,
+            "positiontimestamp": "2018-04-29T19:35:53Z",
+            "type": "MOBILE_UNIT"
+        },
+        {
+            "accuracy": "45",
+            "battery": "83",
+            "devicestate": "Online",
+            "firstname": "MNav",
+            "icon": "https://image.flaticon.com/icons/svg/46/46053.svg",
+            "imei": "353161071690781",
+            "item_id": "562fce16-4f39-4ff5-8cbd-26b29f1226b0",
+            "lastname": "Three",
+            "lat": 43.7772331237793,
+            "long": 7.498883247375488,
+            "positiontimestamp": "2018-04-13T08:52:51Z",
+            "type": "MOBILE_UNIT"
+        }
+    ],
+    "name": "arknavdevices",
+    "permissions": {
+        "Administrator": 5,
+        "Anonymous": 5,
+        "Authenticated": 5
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "imei",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "lat",
+            "ColumnType": "float",
+            "PK": false
+        },
+        {
+            "ColumnName": "long",
+            "ColumnType": "float",
+            "PK": false
+        },
+        {
+            "ColumnName": "firstname",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "lastname",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "icon",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "positiontimestamp",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "type",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "battery",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "devicestate",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "accuracy",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
