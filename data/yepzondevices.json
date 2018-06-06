@@ -1,0 +1,202 @@
+{
+    "app_id": "d0ca88ab0bcaf5f496acbdcae540",
+    "collection_id": "daca88ab0bccb8fdd0b3bca1c29a01",
+    "items": [
+        {
+            "accuracy": "4383",
+            "alertactive": null,
+            "alerttime": null,
+            "alertzone": null,
+            "battery": 33,
+            "devicestate": "SLEEP",
+            "firstname": "Vessel",
+            "icon": "https://image.flaticon.com/icons/svg/45/45783.svg",
+            "id": "289629409",
+            "imei": "865067026785744",
+            "item_id": "a58141ce-9f7e-4aed-89e1-4931ccbdaa9c",
+            "lastname": "V-0781",
+            "lat": 43.766845703125,
+            "lng": 7.483591079711914,
+            "phone": "",
+            "poll": true,
+            "positiontimestamp": "2018-03-21T15:28:07.297Z",
+            "recorddate": "2018-03-21T15:49:39.465Z",
+            "sharetoken": "MzM3ODE4MzU0LDI4OTYyOTQwOSwxNTE5MjUxNzkxLDg1NmIxNGI1MGMzYTFhOWFiZTc1",
+            "type": "GSM_TOWER"
+        },
+        {
+            "accuracy": "19306",
+            "alertactive": null,
+            "alerttime": null,
+            "alertzone": null,
+            "battery": 51,
+            "devicestate": "OFFLINE",
+            "firstname": "Vessel",
+            "icon": "https://image.flaticon.com/icons/svg/46/46053.svg",
+            "id": "279663518",
+            "imei": "865067026802739",
+            "item_id": "b78fbe48-e4e3-4d73-9347-9c1131ce6c4c",
+            "lastname": "V-2",
+            "lat": 43.54999923706055,
+            "lng": 7.489999771118164,
+            "phone": "",
+            "poll": true,
+            "positiontimestamp": "2018-03-09T11:28:08.048Z",
+            "recorddate": "2018-03-21T15:49:38.549Z",
+            "sharetoken": "MzM3ODE4MzU0LDI3OTY2MzUxOCwxNTE5MTMxMTE4LDAwZGFmY2ZkMTUxNzhlNTBhODhi",
+            "type": "GSM_SHIP"
+        },
+        {
+            "accuracy": "345",
+            "alertactive": null,
+            "alerttime": null,
+            "alertzone": null,
+            "battery": 100,
+            "devicestate": "ONLINE",
+            "firstname": "Airbus",
+            "icon": "https://image.flaticon.com/icons/svg/59/59919.svg",
+            "id": "23423",
+            "imei": "122323425436",
+            "item_id": "eafea227-d107-4a81-b126-5fde266daacf",
+            "lastname": "A3200",
+            "lat": 43.6598014831543,
+            "lng": 7.214799880981445,
+            "phone": null,
+            "poll": true,
+            "positiontimestamp": "2018-03-21T11:55:34.159Z",
+            "recorddate": "2018-03-21T15:49:39.997Z",
+            "sharetoken": null,
+            "type": "GSM_PLANE"
+        },
+        {
+            "accuracy": "4383",
+            "alertactive": null,
+            "alerttime": null,
+            "alertzone": null,
+            "battery": 34,
+            "devicestate": "SLEEP",
+            "firstname": "Vessel",
+            "icon": "https://image.flaticon.com/icons/svg/46/46053.svg",
+            "id": "293520458",
+            "imei": "865067026809148",
+            "item_id": "f25d0513-d3f9-40f6-a556-e314d815404d",
+            "lastname": "V-1",
+            "lat": 43.63999938964844,
+            "lng": 7.510000228881836,
+            "phone": "",
+            "poll": true,
+            "positiontimestamp": "2018-03-21T11:55:34.159Z",
+            "recorddate": "2018-03-21T15:49:39.997Z",
+            "sharetoken": "MzM3ODE4MzU0LDI5MzUyMDQ1OCwxNTE5MjUxODExLDVmNDZlYWExMzdlNWY0ZTdkMDY5",
+            "type": "GSM_SHIP"
+        }
+    ],
+    "name": "yepzondevices",
+    "permissions": {
+        "Administrator": 5,
+        "Anonymous": 5,
+        "Authenticated": 5
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "sharetoken",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "firstname",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "lastname",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "icon",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "lat",
+            "ColumnType": "float",
+            "PK": false
+        },
+        {
+            "ColumnName": "lng",
+            "ColumnType": "float",
+            "PK": false
+        },
+        {
+            "ColumnName": "recorddate",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "type",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "accuracy",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "positiontimestamp",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "phone",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "alerttime",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "alertzone",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "alertactive",
+            "ColumnType": "bool",
+            "PK": false
+        },
+        {
+            "ColumnName": "devicestate",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "battery",
+            "ColumnType": "int",
+            "PK": false
+        },
+        {
+            "ColumnName": "poll",
+            "ColumnType": "bool",
+            "PK": false
+        },
+        {
+            "ColumnName": "imei",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
