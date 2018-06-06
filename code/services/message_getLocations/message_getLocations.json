@@ -1,0 +1,13 @@
+{
+    "current_version": 28,
+    "dependencies": "clearblade,log",
+    "logging_enabled": "true",
+    "name": "message_getLocations",
+    "params": [],
+    "permissions": {
+        "Anonymous": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "message_getLocations.js"
+}
