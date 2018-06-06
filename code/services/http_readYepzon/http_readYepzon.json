@@ -1,0 +1,13 @@
+{
+    "current_version": 1,
+    "dependencies": "clearblade,log,http",
+    "logging_enabled": "false",
+    "name": "http_readYepzon",
+    "params": [],
+    "permissions": {
+        "Anonymous": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "http_readYepzon.js"
+}
