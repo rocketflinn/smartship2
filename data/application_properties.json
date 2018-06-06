@@ -1,0 +1,79 @@
+{
+    "app_id": "d0ca88ab0bcaf5f496acbdcae540",
+    "collection_id": "d2ca88ab0bc8b1afe3c4e6b5a901",
+    "items": [
+        {
+            "item_id": "678c10a1-6056-489d-bf17-34d6092ea462",
+            "property_name": "mapbox_api_key",
+            "property_value": "pk.eyJ1IjoicnJlaW5vbGQiLCJhIjoiY2lwOTllOGQ2MDB4Y2VhbnJnMWtzcW9qaiJ9.1mNTDQ5rwabgUL9onzaLxg"
+        },
+        {
+            "item_id": "84465b5e-9fd8-42bb-89a7-b525c34401fb",
+            "property_name": "finalzoom",
+            "property_value": "10"
+        },
+        {
+            "item_id": "844e29bd-097e-43f5-aee6-26996895a2f5",
+            "property_name": "initialzoom",
+            "property_value": "10"
+        },
+        {
+            "item_id": "98dfa99b-29e8-47bf-a872-6e8df37e49e3",
+            "property_name": "initialcenter",
+            "property_value": "[7.2148,43.6598]"
+        },
+        {
+            "item_id": "c16a572e-a67c-4266-8870-a93599251416",
+            "property_name": "mappitch",
+            "property_value": "0"
+        },
+        {
+            "item_id": "c2876522-2e2a-4e42-b8dd-89f0d46434b2",
+            "property_name": "finalcenter",
+            "property_value": "[7.2148,43.6598]"
+        },
+        {
+            "item_id": "e0185528-ff2f-4d06-9368-602cae6a8bc6",
+            "property_name": "transitionspeed",
+            "property_value": "3"
+        },
+        {
+            "item_id": "e626c0b7-4fa5-4adf-b900-eefb0df250ee",
+            "property_name": "recordage",
+            "property_value": "45"
+        },
+        {
+            "item_id": "f4b28ebd-303f-4fec-8e4b-fbf4f4a642bd",
+            "property_name": "batterywarn",
+            "property_value": "40"
+        },
+        {
+            "item_id": "fd35891b-561a-479e-a86e-12353b1b3d4d",
+            "property_name": "map_showmouselatlng",
+            "property_value": "true"
+        }
+    ],
+    "name": "application_properties",
+    "permissions": {
+        "Administrator": 15,
+        "Anonymous": 1,
+        "Authenticated": 15
+    },
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "property_name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "property_value",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}
