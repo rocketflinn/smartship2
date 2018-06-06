@@ -1,0 +1,10 @@
+{
+    "current_version": 1,
+    "dependencies": "clearblade,log",
+    "logging_enabled": "true",
+    "name": "updateDeviceData",
+    "params": [],
+    "permissions": {},
+    "run_user": "",
+    "source": "updateDeviceData.js"
+}
