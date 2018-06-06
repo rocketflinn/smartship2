@@ -1,0 +1,18 @@
+{
+    "allow_certificate_auth": false,
+    "allow_key_auth": true,
+    "certificate": "",
+    "description": "",
+    "enabled": true,
+    "firstname": null,
+    "icon": null,
+    "lastname": null,
+    "lastupdate": null,
+    "lat": null,
+    "long": null,
+    "move": null,
+    "name": "at5000Adapter",
+    "phone": null,
+    "state": "enabled",
+    "type": "at-5000-adapter"
+}
