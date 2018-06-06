@@ -1,0 +1,10 @@
+{
+    "current_version": 1,
+    "dependencies": "clearblade,log",
+    "logging_enabled": "false",
+    "name": "message_ClearHistory",
+    "params": [],
+    "permissions": {},
+    "run_user": "",
+    "source": "message_ClearHistory.js"
+}
