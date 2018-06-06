@@ -1,0 +1,13 @@
+{
+    "current_version": 52,
+    "dependencies": "clearblade,globals,log",
+    "logging_enabled": "true",
+    "name": "message_loadLocation",
+    "params": [],
+    "permissions": {
+        "Anonymous": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "message_loadLocation.js"
+}
