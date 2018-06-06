@@ -1,0 +1,10 @@
+{
+    "current_version": 1,
+    "dependencies": "clearblade,globals",
+    "logging_enabled": "false",
+    "name": "message_publishPolygons",
+    "params": [],
+    "permissions": {},
+    "run_user": "",
+    "source": "message_publishPolygons.js"
+}
