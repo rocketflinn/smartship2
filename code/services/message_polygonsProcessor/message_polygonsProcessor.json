@@ -1,0 +1,16 @@
+{
+    "current_version": 1,
+    "dependencies": "clearblade,log,globals",
+    "logging_enabled": "true",
+    "name": "message_polygonsProcessor",
+    "params": [
+        "action"
+    ],
+    "permissions": {
+        "Administrator": 1,
+        "Anonymous": 1,
+        "Authenticated": 1
+    },
+    "run_user": "",
+    "source": "message_polygonsProcessor.js"
+}
