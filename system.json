@@ -1,0 +1,104 @@
+{
+    "auth": true,
+    "deployments": [
+        {
+            "assets": [
+                {
+                    "asset_class": "devices",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": true
+                },
+                {
+                    "asset_class": "users",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": true
+                },
+                {
+                    "asset_class": "services",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": false
+                },
+                {
+                    "asset_class": "libraries",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": false
+                },
+                {
+                    "asset_class": "timers",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": false
+                },
+                {
+                    "asset_class": "triggers",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": false
+                },
+                {
+                    "asset_class": "portals",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": false
+                },
+                {
+                    "asset_class": "plugins",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "Default Deployment_deployment_edge_group",
+                    "sync": false
+                },
+                {
+                    "asset_class": "application_properties",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "___ALL_EDGES___",
+                    "sync": true
+                },
+                {
+                    "asset_class": "geofences",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "___ALL_EDGES___",
+                    "sync": true
+                },
+                {
+                    "asset_class": "yepzondevices",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "___ALL_EDGES___",
+                    "sync": true
+                },
+                {
+                    "asset_class": "arknavdevices",
+                    "asset_id": "",
+                    "deployment": "Default Deployment",
+                    "member": "___ALL_EDGES___",
+                    "sync": true
+                }
+            ],
+            "description": "Deployment created by the database migration process. It reflects the old semantics for ClearBlade systems",
+            "edges": [
+                "___ALL_EDGES___"
+            ],
+            "name": "Default Deployment"
+        }
+    ],
+    "description": "",
+    "messaging_url": "platform.clearblade.com:1883",
+    "name": "SmartShip",
+    "platform_url": "https://mcore.clearblade.com",
+    "system_key": "d0ca88ab0bcaf5f496acbdcae540",
+    "system_secret": "D0CA88AB0BCE81F5EFF5CEC2E457"
+}
