@@ -1,0 +1,206 @@
+{
+    "Description": "Default role that is applied to a user who has rights to everything",
+    "ID": "Administrator",
+    "Name": "Administrator",
+    "Permissions": {
+        "AllCollections": {
+            "Level": 0
+        },
+        "AllServices": {
+            "Level": 0
+        },
+        "CodeServices": [
+            {
+                "Level": 1,
+                "Name": "data_loadDeviceData",
+                "SystemKey": "d0ca88ab0bcaf5f496acbdcae540"
+            },
+            {
+                "Level": 1,
+                "Name": "data_updateDeviceData",
+                "SystemKey": "d0ca88ab0bcaf5f496acbdcae540"
+            },
+            {
+                "Level": 1,
+                "Name": "devices_resetLocations",
+                "SystemKey": "d0ca88ab0bcaf5f496acbdcae540"
+            },
+            {
+                "Level": 1,
+                "Name": "generateDeviceMovements",
+                "SystemKey": "d0ca88ab0bcaf5f496acbdcae540"
+            },
+            {
+                "Level": 1,
+                "Name": "httpGetWeather",
+                "SystemKey": "d0ca88ab0bcaf5f496acbdcae540"
+            },
+            {
+                "Level": 0,
+                "Name": "message_monitorSafetyPolygons",
+                "SystemKey": "d0ca88ab0bcaf5f496acbdcae540"
+            },
+            {
+                "Level": 1,
+                "Name": "message_polygonsProcessor",
+                "SystemKey": "d0ca88ab0bcaf5f496acbdcae540"
+            }
+        ],
+        "Collections": [
+            {
+                "Columns": [],
+                "ID": "8ca99c9f0bcccee286febbbeb8b101",
+                "Items": [],
+                "Level": 15,
+                "Name": "8ca99c9f0bcccee286febbbeb8b101"
+            },
+            {
+                "Columns": [],
+                "ID": "d2ca88ab0bc8b1afe3c4e6b5a901",
+                "Items": [],
+                "Level": 15,
+                "Name": "application_properties"
+            },
+            {
+                "Columns": [],
+                "ID": "f4e3efac0be2eda683d7dfa6db50",
+                "Items": [],
+                "Level": 5,
+                "Name": "arknavdevices"
+            },
+            {
+                "Columns": [],
+                "ID": "b29bd7a80bfe80c6c79caea2b1bf01",
+                "Items": [],
+                "Level": 15,
+                "Name": "b29bd7a80bfe80c6c79caea2b1bf01"
+            },
+            {
+                "Columns": [],
+                "ID": "e69c899f0bd6a6aed7a9f4d7d3c901",
+                "Items": [],
+                "Level": 0,
+                "Name": "e69c899f0bd6a6aed7a9f4d7d3c901"
+            },
+            {
+                "Columns": [],
+                "ID": "f6abf39e0b86ccd4cfe69990a18e01",
+                "Items": [],
+                "Level": 0,
+                "Name": "f6abf39e0b86ccd4cfe69990a18e01"
+            },
+            {
+                "Columns": [],
+                "ID": "a2e3dc9f0b9cc58dc4d487b7a513",
+                "Items": [],
+                "Level": 15,
+                "Name": "geofences"
+            },
+            {
+                "Columns": [],
+                "ID": "f89fd7a80be0d49c8cf1bb8ae19e01",
+                "Items": [],
+                "Level": 15,
+                "Name": "geofences"
+            },
+            {
+                "Columns": [],
+                "ID": "d6ca88ab0b90d28084bb8491bf7f",
+                "Items": [],
+                "Level": 15,
+                "Name": "geofences"
+            },
+            {
+                "Columns": [],
+                "ID": "8288e3a80bb2f38bc0a8fedfd252",
+                "Items": [],
+                "Level": 5,
+                "Name": "yepzondevices"
+            },
+            {
+                "Columns": [],
+                "ID": "daca88ab0bccb8fdd0b3bca1c29a01",
+                "Items": [],
+                "Level": 5,
+                "Name": "yepzondevices"
+            }
+        ],
+        "Deployments": {
+            "Level": 0
+        },
+        "DevicesList": {
+            "Level": 5
+        },
+        "EdgesList": {
+            "Level": 0
+        },
+        "MsgHistory": {
+            "Level": 15
+        },
+        "Portals": [
+            {
+                "Level": 15,
+                "Name": "Asset Tracking Portal",
+                "SystemKey": "d0ca88ab0bcaf5f496acbdcae540"
+            },
+            {
+                "Level": 15,
+                "Name": "Dev Asset Tracking Portal",
+                "SystemKey": "d0ca88ab0bcaf5f496acbdcae540"
+            },
+            {
+                "Level": 15,
+                "Name": "Asset Tracking and Device Management",
+                "SystemKey": "d0ca88ab0bcaf5f496acbdcae540"
+            },
+            {
+                "Level": 5,
+                "Name": "updateUserLocation",
+                "SystemKey": "d0ca88ab0bcaf5f496acbdcae540"
+            },
+            {
+                "Level": 5,
+                "Name": "Aarons Hacking portal",
+                "SystemKey": "d0ca88ab0bcaf5f496acbdcae540"
+            },
+            {
+                "Level": 15,
+                "Name": "Device Tracking Portal",
+                "SystemKey": "d0ca88ab0bcaf5f496acbdcae540"
+            },
+            {
+                "Level": 15,
+                "Name": "Smart Ship Tracking Portal",
+                "SystemKey": "d0ca88ab0bcaf5f496acbdcae540"
+            },
+            {
+                "Level": 15,
+                "Name": "Tracker Portal",
+                "SystemKey": "d0ca88ab0bcaf5f496acbdcae540"
+            },
+            {
+                "Level": 15,
+                "Name": "DatePicker",
+                "SystemKey": "d0ca88ab0bcaf5f496acbdcae540"
+            },
+            {
+                "Level": 15,
+                "Name": "Maritime Asset Intelligence Ecosystem",
+                "SystemKey": "d0ca88ab0bcaf5f496acbdcae540"
+            }
+        ],
+        "Push": {
+            "Level": 0
+        },
+        "Timers": {
+            "Level": 0
+        },
+        "Topics": [],
+        "Triggers": {
+            "Level": 0
+        },
+        "UsersList": {
+            "Level": 0
+        }
+    }
+}
