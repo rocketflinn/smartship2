@@ -1,0 +1,10 @@
+{
+    "current_version": 10,
+    "dependencies": "clearblade",
+    "logging_enabled": "false",
+    "name": "AirportAlert",
+    "params": [],
+    "permissions": {},
+    "run_user": "",
+    "source": "AirportAlert.js"
+}
